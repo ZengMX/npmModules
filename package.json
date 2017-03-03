@@ -1,0 +1,22 @@
+{
+  "name": "zengmodule",
+  "version": "1.0.0",
+  "description": "my first module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengMX/npmModules.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "ZengMx <279139000@qq.com> (https://github.com/ZengMX/npmModules.git)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZengMX/npmModules/issues"
+  },
+  "homepage": "https://github.com/ZengMX/npmModules#readme"
+}
