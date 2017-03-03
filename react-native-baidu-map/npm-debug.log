@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/bin/node',
+1 verbose cli   '/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/imall/Desktop/myGitNpm/npmModules/react-native-baidu-map',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/imall/.npm correctMkdir not in flight; initializing
+10 info lifecycle @imall-test/react-native-baidu-map@0.0.40~prepublish: @imall-test/react-native-baidu-map@0.0.40
+11 silly lifecycle @imall-test/react-native-baidu-map@0.0.40~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package.tgz',
+12 verbose tar pack   '/Users/imall/Desktop/myGitNpm/npmModules/react-native-baidu-map' ]
+13 verbose tarball /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package.tgz
+14 verbose folder /Users/imall/Desktop/myGitNpm/npmModules/react-native-baidu-map
+15 verbose addLocalTarball adding from inside cache /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package.tgz
+16 verbose correctMkdir /Users/imall/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd @imall-test/react-native-baidu-map@0.0.40
+18 verbose afterAdd /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/imall/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package/package.json written
+21 silly publish { name: '@imall-test/react-native-baidu-map',
+21 silly publish   version: '0.0.40',
+21 silly publish   description: 'Custom Module',
+21 silly publish   main: 'index.js',
+21 silly publish   author: { name: 'ZMX' },
+21 silly publish   license: 'ISC',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: '@imall-test/react-native-baidu-map@0.0.40',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: 'f226c0900f4cca5710b2851a0772cd4e0ff287de',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @imall-test/react-native-baidu-map
+24 silly mapToRegistry scope (from package name) @imall-test
+25 verbose mapToRegistry no registry URL found in name for scope @imall-test
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://github.com/ZengMX/npmModules/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@imall-test/react-native-baidu-map',
+28 silly mapToRegistry   scope: '@imall-test',
+28 silly mapToRegistry   name: '@imall-test/react-native-baidu-map',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://github.com/ZengMX/npmModules/@imall-test%2freact-native-baidu-map
+30 verbose publish registryBase https://github.com/ZengMX/npmModules/
+31 silly publish uploading /Users/imall/.npm/@imall-test/react-native-baidu-map/0.0.40/package.tgz
+32 verbose stack Error: auth required for publishing
+32 verbose stack     at CachingRegistryClient.publish (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+32 verbose stack     at /usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/lib/publish.js:137:14
+32 verbose stack     at mapToRegistry (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+32 verbose stack     at publish_ (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/lib/publish.js:106:3)
+32 verbose stack     at Array.<anonymous> (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+32 verbose stack     at LOOP (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+32 verbose stack     at LOOP (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+32 verbose stack     at chain (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+32 verbose stack     at /usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/lib/publish.js:72:5
+32 verbose stack     at RES (/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+33 verbose cwd /Users/imall/Desktop/myGitNpm/npmModules/react-native-baidu-map
+34 error Darwin 15.6.0
+35 error argv "/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/bin/node" "/usr/local/Cellar/nvm/0.31.1/versions/node/v6.2.0/bin/npm" "publish"
+36 error node v6.2.0
+37 error npm  v3.8.9
+38 error code ENEEDAUTH
+39 error need auth auth required for publishing
+40 error need auth You need to authorize this machine using `npm adduser`
+41 verbose exit [ 1, true ]

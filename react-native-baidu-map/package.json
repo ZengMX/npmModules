@@ -1,0 +1,8 @@
+{
+  "name": "@imall-test/react-native-baidu-map",
+  "version": "0.0.40",
+  "description": "Custom Module",
+  "main": "index.js",
+  "author": "ZMX",
+  "license": "ISC"
+}

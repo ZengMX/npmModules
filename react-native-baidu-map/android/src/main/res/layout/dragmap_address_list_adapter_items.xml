@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="15dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:paddingLeft="15dp"
+                android:id="@+id/tv_drag_name"
+                android:layout_width="wrap_content"
+                android:singleLine="false"
+                android:textSize="22sp"
+                android:textColor="#999"
+                android:text="adsfasdfasdfasdfwea"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingLeft="15dp"
+                android:id="@+id/tv_drag_address"
+                android:layout_width="wrap_content"
+                android:singleLine="false"
+                android:textSize="16sp"
+                android:textColor="#999"
+                android:text="adsfasdfasdfasdfwearfewf,esafasdfasedfaewfadfasfasdfddddddddas我去"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+</LinearLayout>

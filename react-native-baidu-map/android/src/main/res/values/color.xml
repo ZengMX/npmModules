@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listview">#fff</color>
+    <color name="listviewPress">#fdc0c0</color>
+    <color name="linearline">#eeeeee</color>
+    <color name="bule">#2fbdc8</color>
+    <color name="black">#333333</color>
+    <color name="selects">#ccc</color>
+    <color name="myRead">#f00</color>
+    <color name="fonsColor">#999</color>
+</resources>
