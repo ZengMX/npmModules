@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2aaec4be-10d5-46a4-8004-0e2fc09d46f3++1941" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2aaec4be-10d5-46a4-8004-0e2fc09d46f3++1941" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E89852F8-C924-4FF0-8B16-C4651FBC254A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2aaec4be-10d5-46a4-8004-0e2fc09d46f3++1941" : "..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTAliPay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RCTAliPay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.202:9999\/svn\/listen",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2aaec4be-10d5-46a4-8004-0e2fc09d46f3++1941"
+    }
+  ]
+}
